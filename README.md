@@ -1,11 +1,8 @@
 # Sistem-za-ulaz-u-banku
 
-Program simulates bank entrancing and keeps records of people in a bank using RFID cards
-and touch sensor that are connected to Arduino.
+Simulira se sistem za ulazak u banku pomocu troje vrata. Kroz prva vrata se ulazi u sobu za cekanje ocitavanjem RFID kartice. Ako kartica postoji u bazi korisnik se pusta, u suprotnom se pali alam i id kartice se ispisuje u datoteku _provalnik.txt_. Kroz druga vrata se izlazi iz sobe za cekanje i ulazi u banku pomocu kapacitivnog senzora dodira. Pritiskom na njega aktivira se prekid i proverava se da li su prva vrata zatvorena sto se simulira uz pomoc ultrasonicnog senzora koji meri razdaljinu. Kroz treca vrata se izlazi iz banke i to se realizuje unosenjem sifre za izlaz. Python i Arduino sve vreme razmenjuju podatke uz pomoc serijske komunikacije. :bank: :safety_vest:
 
-The bank entry system is simulated. There are three doors. Through the first door you enter the waiting room. Through the second door you exit the waiting room and enter the bank. Through the third door you exit the bank. The first door is opened with the RFID card only if the card is in the base, otherwise the alarm is activated. The second door is opened by a capacitive touch sensor and can only be opened if the first one is closed, which is measured by an ultrasonic sensor that measures the distance. The third door is opened with the correctly code entered. The program uses interrupts to regulate the system. :bank:
-
-Used programming languages ​​and tools :toolbox::
+Alati i programski jezici korisceni: :toolbox:
 
 - Python
 - Arduino IDE with Serial communication
