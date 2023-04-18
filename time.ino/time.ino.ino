@@ -1,7 +1,7 @@
 #include <TimerOne.h>
 
-volatile int voltage = 0;
-volatile byte state = 0;
+int counter = 0;
+bool state = false;
 
 void setup()
 {
@@ -12,15 +12,15 @@ void setup()
 
 void loop()
 {
-  if (state)
+  if (state == true)
   {
-    Serial.println(voltage);
-    state = 0;
+    Serial.println(counter);
+    state = false;
   }
 }
 
 void timerIsr()
 {
-  state = 1;
-  voltage = analogRead(A0);
+  counter += 1;
+  state = true;
 }

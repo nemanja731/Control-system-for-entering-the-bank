@@ -10,7 +10,7 @@ import numpy as np
 class App(QWidget):    
     def __init__(self):
         super().__init__()
-        self.title = 'Zadatak 14.5.1'
+        self.title = 'Check text'
         self.left = 200
         self.top = 200
         self.width = 120

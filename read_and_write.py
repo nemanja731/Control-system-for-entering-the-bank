@@ -8,7 +8,7 @@ try:
         n = line.decode();
         print(int(n));
 except KeyboardInterrupt:
-    print('Doslo je do prekida.')
+    print('There was an interruption.')
 except:
-    print('Doslo je do neke druge greske.')
+    print('Another error occurred.')
 ser.close()
