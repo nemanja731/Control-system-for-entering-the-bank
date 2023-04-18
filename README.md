@@ -1,6 +1,6 @@
-# Kontrolni-sistem-za-ulaz-u-banku
+# Control system for entering the bank
 
-The control system for entering the bank using three doors is simulated.
+It is simulated using 3 doors.
 
 ## First door
 
