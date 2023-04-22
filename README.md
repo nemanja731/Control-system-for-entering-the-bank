@@ -2,7 +2,7 @@
 
 <img src="https://static.wixstatic.com/media/e62e09_c2985c5cd99747e990e2ee0fdbfef162~mv2.gif" width="40%" height="40%" align="center"/>
 
-The control system is simulated using three doors. Each door has a different opening system. There are three doors.
+The control system is simulated using a safety doors. Each door has a different opening system. There are three doors.
 
 ## First door :door:
 
