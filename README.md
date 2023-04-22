@@ -6,15 +6,15 @@ The control system is simulated using a safety doors. Each door has a different 
 
 ## First door :door:
 
-You enter the waiting room through the first door by reading the RFID card. If the card exists in the database, the user is released, otherwise an alarm is triggered and the card's id is written to the _burglar.txt_ file.
+By reading the RFID card, you can pass through the first door and enter the waiting room. If the card exists in the database, the user is released, otherwise an alarm is triggered and the card's id is written to the _burglar.txt_ file.
 
 ## Second door :door:
 
-Through the second door, one leaves the waiting room and enters the bank with the help of an interruption via a capacitive touch sensor. By pressing it, the break is activated and it is checked whether the first door is closed, which is simulated with the help of an ultrasonic sensor that measures the distance.
+With the help of interruption via the capacitive touch sensor, it is possible to pass through other doors. This leaves the waiting room and enters the bank. By pressing it, the break is activated and it is checked whether the first door is closed, which is simulated with the help of an ultrasonic sensor that measures the distance.
 
 ## Third door :door:
 
-You exit the bank through the third door, and this is done by entering the exit code. Python and Arduino exchange data all the time using serial communication. :bank: :safety_vest:
+By entering the exit code, you pass through the third door and exit the bank. Python and Arduino exchange data all the time using serial communication. :bank: :safety_vest:
 
 Tools and programming languages ​​used: :toolbox:
 
