@@ -2,7 +2,7 @@
 
 It is simulated using 3 doors.
 
-![Control] (https://cdn.dribbble.com/users/1018473/screenshots/4644908/security.gif)
+![Control](https://cdn.dribbble.com/users/1018473/screenshots/4644908/security.gif)
 
 ## First door :door:
 
