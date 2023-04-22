@@ -2,6 +2,8 @@
 
 It is simulated using 3 doors.
 
+![Control] (https://cdn.dribbble.com/users/1018473/screenshots/4644908/security.gif)
+
 ## First door :door:
 
 You enter the waiting room through the first door by reading the RFID card. If the card exists in the database, the user is released, otherwise an alarm is triggered and the card's id is written to the _burglar.txt_ file.
