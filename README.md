@@ -10,7 +10,7 @@ By reading the RFID card, you can pass through the first door and enter the wait
 
 ## Second door :door:
 
-With the help of interruption via the capacitive touch sensor, it is possible to pass through other doors. This leaves the waiting room and enters the bank. By pressing it, the break is activated and it is checked whether the first door is closed, which is simulated with the help of an ultrasonic sensor that measures the distance.
+By interruption via the capacitive touch sensor, it is possible to pass through other doors. This leaves the waiting room and enters the bank. By pressing it, the break is activated and it is checked whether the first door is closed, which is simulated with the help of an ultrasonic sensor that measures the distance.
 
 ## Third door :door:
 
