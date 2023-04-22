@@ -2,9 +2,7 @@
 
 It is simulated using 3 doors.
 
-<img src="https://cdn.dribbble.com/users/1018473/screenshots/4644908/security.gif" width="50%" height="50%"/>
-
-<img src="https://static.wixstatic.com/media/e62e09_c2985c5cd99747e990e2ee0fdbfef162~mv2.gif" width="50%" height="50%"/>
+<img src="https://static.wixstatic.com/media/e62e09_c2985c5cd99747e990e2ee0fdbfef162~mv2.gif" width="30%" height="30%"/>
 
 ## First door :door:
 
